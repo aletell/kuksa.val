@@ -213,7 +213,8 @@ to access the container from the outside or to test the connection it is possibl
 To do so when starting the server set the parameter --address to the ip-adress to the address of the conatiner which can be found using ifconfig
 
 ### example
-curl http//localhost:port/vss/api/v1/signals/Vehicle.Speed
+curl http://localhost:8090/vss/api/v1/signals/Vehicle.Speed
+
 # How-to's
 
 ## Certificates
