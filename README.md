@@ -208,7 +208,10 @@ For authorizing client, file 'jwt.key.pub' contains public key used to verify th
 - **--address** [optional] - If provided, W3C-Server shall use different server address than default _'localhost'_.
 - **--port** [optional] - If provided, W3C-Server shall use different server port than default '8090' value.
 - **--log-level** [optional] - Enable selected log level value. To allow for different log level combinations, parameter can be provided multiple times with different log level values.
-
+## test
+to access the container from the outside or to test the connection it is possible to test that by using the curl command.
+To do so when starting the server set the parameter --address to the ip-adress to the address of the conatiner which can be found using ifconfig
+curl http//localhost:port/vss/api/v1/signals/Vehicle.Speed
 # How-to's
 
 ## Certificates
